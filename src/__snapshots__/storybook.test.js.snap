@@ -13091,3 +13091,20 @@ exports[`Storyshots Visual/Icons Search 1`] = `
   </button>
 </div>
 `;
+
+exports[`Storyshots paper Default 1`] = `
+<div
+  className="paper-story"
+>
+  <section
+    className="paper"
+  >
+    <h3>
+      This is paper
+    </h3>
+    <p>
+      Paper content
+    </p>
+  </section>
+</div>
+`;
