@@ -1,85 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 @import "./default";
-html {
-  font-size: 100%;
-  font-family: $main-font;
-  background: $body-color;
-}
-
-section {
-  padding: 1rem 0;
-}
-
-main {
-  min-height: 60vh;
-
-  .div-full--center {
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  @media (min-width: $medium-size) {
-    ul {
-      column-count: 2;
-    }
-    .heading {
-      text-align: center;
-      border-bottom: .5px solid $section-heading-color;
-      line-height: 0.1rem;
-      margin: 2rem;
-
-      .emphasized {
-        background: $primary-background-color;
-        text-transform: none;
-        padding: 0 1rem;
-        color: $section-heading-color;
-      }
-    }
-  }
-}
-
-
 a {
+  text-decoration: underline;
   color: $link-color;
-  text-decoration: none;
 }
 
 a:hover {
-  opacity: .6;
-}
-
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $heading-font;
-  text-transform: uppercase;
-  letter-spacing: .05rem;
-  text-align: center;
-}
-
-button {
-  text-transform: uppercase;
-}
-
-ul {
-  column-count: 1;
-  padding: 1rem 2rem;
-
-  li {
-    padding-bottom: .5rem;
-  }
-}
-
-i {
-  font-family: $italic-font;
-  text-transform: none;
-}
-
-.small {
-  font-size: .5rem;
-}
-
-.information {
-  padding: 0 .5rem;
+  color: $link-hover-color;
 }

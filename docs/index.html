@@ -17,11 +17,31 @@
   } catch (e) {
     // eslint-disable-next-line no-console
     console.warn('unable to connect to top frame for connecting dev tools');
-  }</script><link rel="shortcut icon" href="favicon/favicon.png"><link rel="icon" type="image/png" href="favicon/favicon.png" sizes="192x192"><script async src="https://www.googletagmanager.com/gtag/js?id=G-BFQZKRGTMJ"></script><script>window.dataLayer = window.dataLayer || [];
+  }
+
+  window.onerror = function onerror(message, source, line, column, err) {
+    if (window.CONFIG_TYPE !== 'DEVELOPMENT') return;
+    // eslint-disable-next-line no-var, vars-on-top
+    var xhr = new window.XMLHttpRequest();
+    xhr.open('POST', '/runtime-error');
+    xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+    xhr.send(
+      JSON.stringify({
+        /* eslint-disable object-shorthand */
+        message: message,
+        source: source,
+        line: line,
+        column: column,
+        error: err && { message: err.message, name: err.name, stack: err.stack },
+        origin: 'manager',
+        /* eslint-enable object-shorthand */
+      })
+    );
+  };</script><link rel="shortcut icon" href="favicon/favicon.png"><link rel="icon" type="image/png" href="favicon/favicon.png" sizes="192x192"><script async src="https://www.googletagmanager.com/gtag/js?id=G-488P7PJ1GB"></script><script>window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-BFQZKRGTMJ');</script><style>#root[hidden],
+    gtag('config', 'G-488P7PJ1GB');</script><style>#root[hidden],
       #docs-root[hidden] {
         display: none !important;
       }</style></head><body><div id="root"></div><div id="docs-root"></div><script>window['CONFIG_TYPE'] = "PRODUCTION";
@@ -36,4 +56,4 @@
             
         
             
-              window['DOCS_MODE'] = false;</script><script src="runtime~main.870e8ee0658e83d05c6b.bundle.js"></script><script src="vendors~main.2bce95b2956d152698c6.bundle.js"></script><script src="main.066487055c9e6e72144c.bundle.js"></script></body></html>
+              window['DOCS_MODE'] = false;</script><script src="runtime~main.870e8ee0658e83d05c6b.bundle.js"></script><script src="vendors~main.a318a0a345fec7ba167f.bundle.js"></script><script src="main.340632a8112573f01daf.bundle.js"></script></body></html>

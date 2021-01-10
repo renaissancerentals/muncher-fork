@@ -1,20 +1,19 @@
-//overrides from muncher-ui
-$primary-color: #40606f !default;
-$secondary-color: #4b4f54 !default;
+$primary-color: #13294b !default;
+$secondary-color: #a7bdb1 !default;
 $primary-background-color: white !default;
-$secondary-background-color: #eae9e3 !default;
-$tertiary-background-color: #91a9b3 !default;
-$nav-color: $primary-color !default;
-$link-color: $primary-color !default;
-$link-hover-color: $secondary-color !default;
-$nav-background-color: $secondary-background-color !default;
+$secondary-background-color: #e9eeeb !default;
+$tertiary-background-color: #f5f5f5 !default;
 $disabled-color: #959698 !default;
 $danger-color: #a52a2a !default;
 $success-color: green !default;
 $border-color: #d8d8d8 !default;
-$sans-serif-font: 'Merriweather Sans', sans-serif !default;
+$nav-color: $primary-color !default;
+$link-color: $primary-color !default;
+$link-hover-color: $primary-color !default;
+$nav-background-color: $secondary-background-color !default;
+$sans-serif-font: 'Roboto', sans-serif !default;
 $monospace-font: 'Roboto Mono', monospace !default;
-$serif-font: 'Merriweather', serif !default;
+$serif-font: 'Roboto Slab', serif !default;
 $button-font: $sans-serif-font !default;
 
 $black: $primary-color !default;
@@ -33,13 +32,7 @@ $medium-size: 40rem !default;
 $large-size: 62rem !default;
 $extra-large-size: 75rem !default;
 
-//component variables
-$body-color: $primary-background-color !default;
-$section-heading-color: $link-color !default;
-$main-font: $serif-font !default;
-$heading-font: $sans-serif-font !default;
-$italic-font: $main-font !default;
-$nav-font: $heading-font !default;
-$secondary-nav-background-color: #f0f0f0 !default;
-$input-focus-color: $tertiary-background-color !default;
-$input-border-color: $primary-color !default;
+
+
+
+

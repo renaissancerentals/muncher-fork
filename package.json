@@ -1,7 +1,7 @@
 {
-  "name": "@renaissancerentals/renaissance-component",
-  "version": "6.0.33",
-  "description": "Renaissance rentals UI component library",
+  "name": "@contentmunch/muncher-ui",
+  "version": "0.7.19",
+  "description": "Muncher UI components",
   "author": "asikpradhan",
   "license": "MIT",
   "main": "lib/index.js",
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/renaissancerentals/renaissance-component.git"
+    "url": "git+https://github.com/contentmunch/muncher-ui.git"
   },
   "scripts": {
     "start": "npm run storybook",
@@ -29,7 +29,8 @@
     "pretest": "cp tsconfig-test.json tsconfig.json",
     "test": "react-scripts test -u",
     "deploy": "npm run build-storybook",
-    "storybook": "start-storybook -p 6007 -s public",
+    "postdeploy": "cp public/CNAME docs/CNAME",
+    "storybook": "start-storybook -p 6008 -s public",
     "build-storybook": "build-storybook -s public -o docs"
   },
   "eslintConfig": {
@@ -54,14 +55,14 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
-    "@storybook/addon-a11y": "^6.1.0-alpha.34",
-    "@storybook/addon-actions": "^6.1.0-alpha.34",
-    "@storybook/addon-essentials": "^6.1.0-alpha.34",
-    "@storybook/addon-links": "^6.1.0-alpha.34",
-    "@storybook/addon-storyshots": "^6.1.0-alpha.34",
-    "@storybook/node-logger": "^6.1.0-alpha.34",
-    "@storybook/preset-create-react-app": "^3.1.4",
-    "@storybook/react": "^6.1.0-alpha.34",
+    "@storybook/addon-a11y": "^6.1.11",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/addon-storyshots": "^6.1.11",
+    "@storybook/node-logger": "^6.1.11",
+    "@storybook/preset-create-react-app": "^3.1.5",
+    "@storybook/react": "^6.1.11",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -69,9 +70,6 @@
     "@types/node": "^12.19.1",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
-    "@types/gtag.js": "0.0.3",
-    "@types/lodash": "^4.14.165",
-    "@types/react-google-recaptcha": "^2.1.0",
     "babel-loader": "^8.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -79,36 +77,27 @@
     "react-scripts": "4.0.0",
     "react-test-renderer": "^17.0.1",
     "rimraf": "^3.0.2",
-    "@types/draft-js": "^0.10.44",
-    "@types/js-beautify": "^1.11.0"
+    "typescript": "^4.0.3"
   },
   "dependencies": {
-    "axios": "^0.20.0",
     "node-sass": "^4.14.1",
-    "normalize.css": "^8.0.1",
-    "qrcode": "^1.4.4",
-    "react-google-recaptcha": "^2.1.0",
-    "react-loading-skeleton": "^2.1.1",
-    "typescript": "^4.0.3",
-    "js-beautify": "^1.13.0",
-    "draft-convert": "^2.1.10",
-    "draft-js": "^0.11.7",
-    "immutable": "^4.0.0-rc.12"
+    "normalize.css": "^8.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
   },
   "bugs": {
-    "url": "https://github.com/renaissancerentals/renaissance-component/issues"
+    "url": "https://github.com/contentmunch/muncher-ui/issues"
   },
-  "homepage": "https://renaissancerentals.github.io/renaissance-component",
+  "homepage": "https://muncher-ui.contentmunch.com",
   "directories": {
+    "doc": "docs",
     "lib": "lib"
   },
   "keywords": [
     "html5",
     "reactjs",
     "ui",
-    "component",
-    "driven",
-    "renaissancerentals",
-    "muncher-ui"
+    "component driven"
   ]
 }

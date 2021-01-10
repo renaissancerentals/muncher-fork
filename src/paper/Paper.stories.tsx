@@ -4,7 +4,7 @@ import {Paper} from "./Paper";
 import "./assets/Paper.stories.scss"
 
 export default {
-    title: "Card/Paper",
+    title: "paper",
     component: Paper
 } as Meta;
 

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {Meta, Story} from "@storybook/react";
 import {RangeSlider, RangeSliderProps} from "./RangeSlider";
-import {DropdownButton} from "..";
+import {DropdownButton} from "../button/DropdownButton";
 import "./assets/SliderStories.scss";
 
 export default {
