@@ -1,7 +1,7 @@
 import React, {Fragment} from "react";
 
 import {Month} from "./Calendar";
-import {Icon} from "../..";
+import {Icon} from "@contentmunch/muncher-ui";
 
 export interface CurrentFilters {
     bedroomFilters: number[];

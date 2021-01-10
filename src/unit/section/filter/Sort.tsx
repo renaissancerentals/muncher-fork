@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Button, DropdownButton} from "../../..";
+import {Button, DropdownButton} from "@contentmunch/muncher-ui";
 import {SortBy, SortFields} from "../../data/UnitFilters";
 
 export const Sort: React.FC<SortProps> = ({sortBy, handleSortChange}) => {

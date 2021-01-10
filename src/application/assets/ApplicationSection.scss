@@ -1,0 +1,49 @@
+@import "src/assets/variables";
+@import "../../assets/form";
+
+$application-section-background-color: $primary-background-color !default;
+.section-application {
+  padding-top: 2em;
+  text-align: center;
+  background: $application-section-background-color;
+
+  .application-heading {
+    p {
+      font-size: .9rem;
+      padding: 0 2rem;
+      a {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .muncher-dropdown {
+    display: block;
+
+    .muncher-button {
+      padding-top: 0;
+      padding-bottom: 0;
+
+      h5 {
+        margin: .6rem;
+      }
+
+      border: $primary-color 1px solid;
+
+    }
+
+    .muncher-dropdown--content {
+
+
+      .muncher-button {
+        display: block;
+        flex-wrap: wrap;
+        border: none;
+      }
+    }
+
+  }
+
+}
+

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {DropdownButton} from "../..";
+import {DropdownButton} from "@contentmunch/muncher-ui";
 import "./assets/UnitDropDown.scss";
 
 export const DropDownFilter: React.FC<UnitDropDownProps> = ({label, drop, children}) => {

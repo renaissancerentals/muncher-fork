@@ -1,7 +1,6 @@
 import React, {Fragment, useEffect, useState} from "react";
 import './assets/Announcement.scss';
-import {Button} from "..";
-
+import {Button} from "@contentmunch/muncher-ui";
 export const AnnouncementSection: React.FC<AnnouncementSectionProps> = ({handleContactClicked}) => {
     const [isVisible, setIsVisible] = useState(false);
     useEffect(() => {

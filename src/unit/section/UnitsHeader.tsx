@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./assets/UnitsHeader.scss";
 import "../filter/assets/UnitDropDown.scss";
-import {Icon, Pill, Range} from "../..";
+import {Icon, Pill, Range} from "@contentmunch/muncher-ui";
 
 import {CurrentFilters, SortBy, UnitFilters} from "../data/UnitFilters";
 import {defaultMaxRent, defaultMinRent, Unit} from "../data/Unit";

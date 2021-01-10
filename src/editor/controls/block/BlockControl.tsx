@@ -3,7 +3,7 @@ import {getBlockType} from "../../utilities/draft/DraftUtilities";
 import './BlockControl.scss';
 import {DraftBlockType, RichUtils} from "draft-js";
 import {EditorStatePropsWithFocus} from "../../RenaissanceEditor";
-import {DropdownButton} from "../../../button/DropdownButton";
+import {DropdownButton} from "@contentmunch/muncher-ui";
 
 
 export const BlockControl: React.FC<EditorStatePropsWithFocus> = (

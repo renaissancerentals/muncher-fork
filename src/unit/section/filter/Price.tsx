@@ -1,6 +1,7 @@
 import React from "react";
 import {defaultMaxRent, defaultMinRent} from "../../data/Unit";
-import {DropDownFilter, RangeSlider} from "../../..";
+import { RangeSlider} from "@contentmunch/muncher-ui";
+import {DropDownFilter} from "../../filter/UnitDropDown";
 
 export const PriceFilter: React.FC<PriceFilterProps> = ({minValue, maxValue, setMinValue, setMaxValue,}) => {
 

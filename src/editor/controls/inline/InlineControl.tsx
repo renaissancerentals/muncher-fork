@@ -2,14 +2,15 @@ import React, {Fragment} from "react";
 import {RichUtils} from "draft-js";
 import {getCurrentInlineStyle} from "../../utilities/draft/DraftUtilities";
 import {EditorStatePropsWithFocus} from "../../RenaissanceEditor";
-import {Button} from "../../../button/Button";
+import {Button} from "@contentmunch/muncher-ui";
 
 
-export const InlineControl: React.FC<EditorStatePropsWithFocus> = ({
-                                                                       editorState,
-                                                                       handleEditorStateChange,
-                                                                       focusEditor
-                                                                   }) => {
+export const InlineControl: React.FC<EditorStatePropsWithFocus> = (
+    {
+        editorState,
+        handleEditorStateChange,
+        focusEditor
+    }) => {
 
     const currentStyle = getCurrentInlineStyle(editorState);
     const onMouseDown = (e: React.MouseEvent<HTMLButtonElement>, style: string) => {

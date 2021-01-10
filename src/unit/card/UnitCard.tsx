@@ -1,8 +1,9 @@
 import React from "react";
 import "./assets/UnitCard.scss";
-import {Badge, Unit} from "../..";
+import {Unit} from "../..";
 import tourIcon from "./assets/360-icon.png";
 import videoIcon from "./assets/video-icon.png";
+import {Badge} from "@contentmunch/muncher-ui";
 
 export const UnitCard: React.FC<UnitCardProps> = ({unit}) => {
     return (

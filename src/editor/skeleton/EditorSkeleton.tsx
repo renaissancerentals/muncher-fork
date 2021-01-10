@@ -3,9 +3,7 @@ import '../assets/RenaissanceEditor.scss';
 import Skeleton from "react-loading-skeleton";
 import {BLOCK_TYPES} from "../controls/block/BlockControl";
 import {INLINE_TYPES} from "../controls/inline/InlineControl";
-import {Button} from "../../button/Button";
-import {Icon} from "../../icon/Icon";
-import {DropdownButton} from "../../button/DropdownButton";
+import {Button, DropdownButton, Icon} from "@contentmunch/muncher-ui";
 
 export const EditorSkeleton: React.FC = () => {
     const [showContent, setShowContent] = useState(false);

@@ -1,6 +1,6 @@
 import React, {useRef, useState} from 'react';
 import './assets/Video.scss';
-import {Icon, Spinner} from "..";
+import {Icon, Spinner} from "@contentmunch/muncher-ui";
 
 export const Video: React.FC<VideoProps> = ({url}) => {
     const [isMute, setIsMute] = useState(true);

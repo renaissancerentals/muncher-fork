@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import {Gallery, GalleryType} from "./Gallery";
 import {GalleryImage} from "./data/GalleryImage";
 import {getGalleryImages} from "./service/GalleryService";
-import {Button} from "..";
+import {Button} from "@contentmunch/muncher-ui";
 import "./assets/DriveGallery.scss";
 
 export const DriveGallery: React.FC<DriveGalleryProps> = ({driveId, type, initialSize, showName}) => {

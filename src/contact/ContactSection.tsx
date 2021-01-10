@@ -1,11 +1,20 @@
 import React, {Fragment, useState} from 'react';
 import './assets/Contact.scss';
-import {Button, Captcha, Checkbox, Icon, Input, RangeSlider, Spinner, Textarea} from "..";
+import {Button, Checkbox, Icon, Input, RangeSlider, Spinner, Textarea} from "@contentmunch/muncher-ui";
 import {sendContactMail, sendToConversionTracking} from "./service/ContactService";
 import {defaultMaxRent, defaultMinRent} from "../unit/data/Unit";
 import {ContactMessage} from "./data/ContactMessage";
+import {Captcha} from "../input/Captcha";
 
-export const ContactSection: React.FC<ContactSectionProps> = ({subject, to, cc, as, conversionTrackingIds, variant}) => {
+export const ContactSection: React.FC<ContactSectionProps> = (
+    {
+        subject,
+        to,
+        cc,
+        as,
+        conversionTrackingIds,
+        variant
+    }) => {
 
     const [submitted, setSubmitted] = useState(false);
     const [additionalInfoClicked, setAdditionalInfoClicked] = useState(false);
@@ -192,6 +201,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({subject, to, cc, 
                     </div>
                 </form>
             </div>
+
         </section>
     );
 };

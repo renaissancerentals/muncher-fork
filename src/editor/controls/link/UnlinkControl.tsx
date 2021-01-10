@@ -2,8 +2,7 @@ import React from "react";
 import {RichUtils} from 'draft-js';
 import {entityFromSelection} from "../../utilities/draft/DraftUtilities";
 import {EditorStatePropsWithFocus} from "../../RenaissanceEditor";
-import {Button} from "../../../button/Button";
-import {Icon} from "../../../icon/Icon";
+import {Button,Icon} from "@contentmunch/muncher-ui";
 
 export const UnlinkControl: React.FC<EditorStatePropsWithFocus> = (
     {

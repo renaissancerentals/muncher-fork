@@ -1,8 +1,7 @@
 import React from "react";
 import {EditorState} from "draft-js";
 import {EditorStateProps} from "../../RenaissanceEditor";
-import {Button} from "../../../button/Button";
-import {Icon} from "../../../icon/Icon";
+import {Button, Icon} from "@contentmunch/muncher-ui";
 
 export const RedoControl: React.FC<EditorStateProps> = ({handleEditorStateChange, editorState}) => {
     return (

@@ -1,5 +1,6 @@
 import React from "react";
-import {Checkbox, DropDownFilter} from "../../..";
+import {Checkbox} from "@contentmunch/muncher-ui";
+import {DropDownFilter} from "../../filter/UnitDropDown";
 
 export const sortBedrooms = (a: number, b: number): number => (a - b);
 export const BedroomFilter: React.FC<BedroomFilterProps> = ({filters, handleFilterChange, currentFilters}) => {

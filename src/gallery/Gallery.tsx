@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './assets/Gallery.scss';
-import {Icon, Modal, Spinner} from "..";
+import {Icon, Modal, Spinner} from "@contentmunch/muncher-ui";
 import {ImageCard} from "./ImageCard";
 import {ImageCardSkeleton} from "./ImageCardSkeleton";
 import {GalleryImage} from "./data/GalleryImage";

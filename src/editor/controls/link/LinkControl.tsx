@@ -3,16 +3,14 @@ import {EditorState, RichUtils} from 'draft-js';
 import {entityFromSelection} from "../../utilities/draft/DraftUtilities";
 import './assets/LinkControl.scss';
 import {EditorStatePropsWithFocus} from "../../RenaissanceEditor";
-import {DropdownButton} from "../../../button/DropdownButton";
-import {Icon} from "../../../icon/Icon";
-import {Input} from "../../../input/Input";
-import {Button} from "../../../button/Button";
+import {Button, DropdownButton, Icon, Input} from "@contentmunch/muncher-ui";
 
-export const LinkControl: React.FC<EditorStatePropsWithFocus> = ({
-                                                                     editorState,
-                                                                     handleEditorStateChange,
-                                                                     focusEditor
-                                                                 }) => {
+export const LinkControl: React.FC<EditorStatePropsWithFocus> = (
+    {
+        editorState,
+        handleEditorStateChange,
+        focusEditor
+    }) => {
     const [showContent, setShowContent] = useState(false);
     const [urlValue, setUrlValue] = useState('');
     const selectionState = editorState.getSelection();

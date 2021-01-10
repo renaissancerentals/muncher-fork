@@ -2,8 +2,7 @@ import React, {Fragment} from "react";
 import {RichUtils} from "draft-js";
 import {getBlockType} from "../../utilities/draft/DraftUtilities";
 import {EditorStatePropsWithFocus} from "../../RenaissanceEditor";
-import {Button} from "../../../button/Button";
-import {Icon} from "../../../icon/Icon";
+import {Button, Icon} from "@contentmunch/muncher-ui";
 
 
 export const ListControl: React.FC<EditorStatePropsWithFocus> = (

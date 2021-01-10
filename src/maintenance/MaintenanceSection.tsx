@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {Button, Checkbox, FileInput, Input, Spinner, Textarea} from "..";
+import {Button, Checkbox, FileInput, Input, Spinner, Textarea} from "@contentmunch/muncher-ui";
 import "./assets/Maintenance.scss";
 import {Captcha} from "../input/Captcha";
 import {getAllAddresses} from "../unit/service/UnitService";

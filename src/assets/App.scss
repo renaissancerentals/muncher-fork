@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap');
-@import "./default";
+@import "~@contentmunch/muncher-ui/lib/assets/App";
+@import "variables";
 html {
   font-size: 100%;
   font-family: $main-font;

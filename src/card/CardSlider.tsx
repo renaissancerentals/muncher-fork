@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Icon} from "..";
+import {Icon} from "@contentmunch/muncher-ui";
 import "./assets/CardSlider.scss";
 import {Card} from "./data/Card";
 
