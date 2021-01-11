@@ -133,7 +133,7 @@ export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactLi
 }
 
 export interface ApplicationSectionProps {
-    community: Community;
+    community?: Community;
     contactLink: string;
 }
 

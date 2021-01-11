@@ -16,5 +16,5 @@ export const WithCommunity = Template.bind({});
 
 WithCommunity.args = {
     ...Default.args,
-    community: "HighGrove"
+    community: "Scholar's Quad"
 }

@@ -13,4 +13,16 @@ export const CommunitiesEmail: any = {
     "Courtyard Villas": "meadowcreek@renaissancerentals.com",
 };
 
-export type Community = keyof typeof CommunitiesEmail;
+export type Community =
+    "Covenanter Hill"
+    | "HighGrove"
+    | "Huntington Gardens"
+    | "MeadowCreek"
+    | "Scholar's Quad"
+    | "Scholar's Rock"
+    | "Scholar's Rooftop"
+    | "SummerHouse at Indiana"
+    | "Verona Park"
+    | "Porto Flats"
+    | "Cape Dutch Villas"
+    | "Courtyard Villas"
