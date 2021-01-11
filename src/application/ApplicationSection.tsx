@@ -6,7 +6,7 @@ import {sendRentalApplicationRequest} from "./service/ApplicationService";
 import {CommunitiesEmail, Community} from "../community/data/CommunitiesEmail";
 import {RentalApplication} from "./data/RentalApplication";
 
-export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactLink, community}) => {
+export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactClickHandler, community}) => {
 
 
     const [submissionState, setSubmissionState] = useState<SubmissionState>("init");
@@ -60,7 +60,7 @@ export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactLi
                     <p>If you have spoken to our team and are ready to apply, please submit a request for an application
                         below. We'll email you a link to our free online application shortly.</p>
                     <p>If this is your first time contacting us, we recommend submitting an inquiry on our <a
-                        href={contactLink}>contact page</a> first.</p>
+                        href="/#contact" onClick={contactClickHandler}>contact page</a> first.</p>
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className="form-element">
@@ -134,7 +134,7 @@ export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactLi
 
 export interface ApplicationSectionProps {
     community?: Community;
-    contactLink: string;
+    contactClickHandler: () => void;
 }
 
 export type SubmissionState = "init" | "start" | "submitting" | "complete" | "submissionError" | "formInvalid";

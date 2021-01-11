@@ -10,7 +10,9 @@ const Template: Story<ApplicationSectionProps> = (args) => <ApplicationSection {
 
 export const Default = Template.bind({});
 Default.args = {
-    contactLink: "/contact"
+    contactClickHandler: () => {
+        console.log("clicked");
+    }
 }
 export const WithCommunity = Template.bind({});
 
