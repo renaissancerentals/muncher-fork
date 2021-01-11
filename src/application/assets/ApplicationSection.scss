@@ -16,6 +16,11 @@ $application-section-background-color: $primary-background-color !default;
         cursor: pointer;
       }
     }
+    .muncher-button {
+      padding: 0;
+      font-size: .9rem;
+      text-transform: none;
+    }
   }
 
   .muncher-dropdown {
