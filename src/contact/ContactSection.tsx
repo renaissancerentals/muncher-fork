@@ -88,117 +88,95 @@ export const ContactSection: React.FC<ContactSectionProps> = (
                     of our
                     professional leasing team. We can't wait to meet you!</p>
                 <form onSubmit={submitHandler}>
-                    <div className="blah">
-                        <div className="form-element">
-                            <Input label="Name" name="fullName" icon="user" required/>
-                        </div>
+                    <div className="form-element">
+                        <Input label="Name" name="fullName" icon="user" required/>
                     </div>
-                    <div className="blah">
-                        <div className="form-element">
-                            <Input label="Email" name="email" icon="mail" type="email" required/>
-                        </div>
+                    <div className="form-element">
+                        <Input label="Email" name="email" icon="mail" type="email" required/>
                     </div>
-                    <div className="blah">
-                        <div className="form-element">
-                            <Input label="Phone" name="phone" type="number" icon="phone" required/>
-                        </div>
+                    <div className="form-element">
+                        <Input label="Phone" name="phone" type="number" icon="phone" required/>
                     </div>
-                    <div className="blah">
-                        <div className="checkboxes form-element">
-                            <Checkbox label="Phone OK" name="phonePreferred"/>
-                            <Checkbox label="Text OK" name="textPreferred"/>
-                            <Checkbox label="Email OK" name="emailPreferred" checked={true}/>
+                    <div className="checkboxes form-element">
+                        <Checkbox label="Phone OK" name="phonePreferred"/>
+                        <Checkbox label="Text OK" name="textPreferred"/>
+                        <Checkbox label="Email OK" name="emailPreferred" checked={true}/>
 
-                        </div>
                     </div>
                     {"long" === variant ?
-                        <div className="blah">
-                            <p className="additional-info form-element" onClick={handleAdditionalInfoToggle}>
-                                <b>{additionalInfoClicked ? <Icon name="minus"/> : <Icon name="plus"/>} Tap here to
-                                    provide
-                                    additional information about
-                                    what you are looking for
-                                    in your home.</b> (This info is very helpful to us, but not required.)</p>
-                        </div> : ""}
+                        <p className="additional-info form-element" onClick={handleAdditionalInfoToggle}>
+                            <b>{additionalInfoClicked ? <Icon name="minus"/> : <Icon name="plus"/>} Tap here to
+                                provide
+                                additional information about
+                                what you are looking for
+                                in your home.</b> (This info is very helpful to us, but not required.)</p>
+                        : ""}
 
                     {additionalInfoClicked ?
                         <Fragment>
-                            <div className="blah">
-                                <div className="form-element optional">
-                                    <Input label="Bedrooms Requested" name="bedrooms" icon="inbox" type="number"/>
-                                </div>
+                            <div className="form-element optional">
+                                <Input label="Bedrooms Requested" name="bedrooms" icon="inbox" type="number"/>
                             </div>
-                            <div className="blah">
-                                <div className="form-element optional">
-                                    <Input label="Desired Move-In Date" name="moveInDate" icon="calendar" type="date"
-                                           placeholder="format: mm/dd/yyyy"/>
-                                </div>
+                            <div className="form-element optional">
+                                <Input label="Desired Move-In Date" name="moveInDate" icon="calendar" type="date"
+                                       placeholder="format: mm/dd/yyyy"/>
                             </div>
-                            <div className="blah">
-                                <div className="form-element optional price-range">
-                                    <label>Desired Price Range</label>
-                                    <RangeSlider min={defaultMinRent} max={defaultMaxRent}
-                                                 minValue={lowerRent} maxValue={upperRent} setMinValue={setLowerRent}
-                                                 setMaxValue={setUpperRent}
-                                    >
-                                        <i>click and drag to adjust price range</i>
-                                    </RangeSlider>
-                                </div>
+                            <div className="form-element optional price-range">
+                                <label>Desired Price Range</label>
+                                <RangeSlider min={defaultMinRent} max={defaultMaxRent}
+                                             minValue={lowerRent} maxValue={upperRent} setMinValue={setLowerRent}
+                                             setMaxValue={setUpperRent}
+                                >
+                                    <i>click and drag to adjust price range</i>
+                                </RangeSlider>
                             </div>
-                            <div className="blah">
-                                <div className="form-element optional">
-                                    <Input
-                                        label="Which amenities and features are most important to you in your next home?"
-                                        name="amenities" icon="type"/>
-                                </div>
+                            <div className="form-element optional">
+                                <Input
+                                    label="Which amenities and features are most important to you in your next home?"
+                                    name="amenities" icon="type"/>
                             </div>
                             <div className="form-element optional">
                                 <Input label="Please list any pets that will be living with you" name="pets"
                                        icon="type"/>
                             </div>
-                            <div className="blah">
-                                <div className="form-element optional">
-                                    <Input label="Is there a particular floor plan style or community that you are
+                            <div className="form-element optional">
+                                <Input label="Is there a particular floor plan style or community that you are
                                     most interested in? (Please list all that apply)" name="floorPlan"
-                                           icon="type"/>
-                                </div>
+                                       icon="type"/>
                             </div>
-                            <div className="blah">
-                                <div className="form-element optional">
-                                    <Input label="How did you hear about us?" name="hearAboutUs"
-                                           icon="type"/>
-                                </div>
+
+                            <div className="form-element optional">
+                                <Input label="How did you hear about us?" name="hearAboutUs"
+                                       icon="type"/>
                             </div>
+
                         </Fragment>
                         : ""}
-                    <div className="blah">
-                        <div className="form-element">
-                            <Textarea
-                                label="Question"
-                                name="question"
-                                required={true}
-                            />
-                        </div>
+
+                    <div className="form-element">
+                        <Textarea
+                            label="Question"
+                            name="question"
+                            required={true}
+                        />
                     </div>
-                    <div className="blah">
-                        <Captcha setCaptchaResponse={setCaptchaResponse}/>
+
+                    <Captcha setCaptchaResponse={setCaptchaResponse}/>
+
+                    <div className="form-element">
+                        {submissionComplete ?
+                            <p className="text-success message">Message Sent!</p> : ""}
+                        {submissionError ?
+                            <p className="text-danger message">{submissionErrorMessage}</p> : ""}
                     </div>
-                    <div className="blah">
-                        <div className="form-element">
-                            {submissionComplete ?
-                                <p className="text-success message">Message Sent!</p> : ""}
-                            {submissionError ?
-                                <p className="text-danger message">{submissionErrorMessage}</p> : ""}
-                        </div>
+
+                    <div className="form-element form-submit">
+                        <Button variant="primary" size="large" type="submit" disabled={submitted}>
+                            Submit
+                        </Button>
+                        {isSubmitting ? <Spinner size="small"/> : ""}
                     </div>
-                    <div className="blah">
-                        <div className="form-element form-submit">
-                            <Button variant="primary" size="large" type="submit" disabled={submitted}>
-                                Submit
-                            </Button>
-                            {isSubmitting ? <Spinner size="small"/> : ""}
-                        </div>
-                    </div>
+
                 </form>
             </div>
 

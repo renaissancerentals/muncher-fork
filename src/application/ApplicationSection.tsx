@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Button, Input, Select, Spinner} from "@contentmunch/muncher-ui";
+import {Button, Input, Select, Spinner, Textarea} from "@contentmunch/muncher-ui";
 import "./assets/ApplicationSection.scss";
 import {Captcha} from "../input/Captcha";
 import {sendRentalApplicationRequest} from "./service/ApplicationService";
@@ -59,7 +59,8 @@ export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactCl
                         <span className="emphasized">Rental Application Request Form</span></h2>
                     <p>If you have spoken to our team and are ready to apply, please submit a request for an application
                         below. We'll email you a link to our free online application shortly.</p>
-                    <p>If this is your first time contacting us, we recommend submitting an inquiry on our <Button variant="transparent" onClick={contactClickHandler}>contact page</Button> first.</p>
+                    <p>If this is your first time contacting us, we recommend submitting an inquiry on our <Button
+                        variant="transparent" onClick={contactClickHandler}>contact page</Button> first.</p>
                 </div>
                 <form onSubmit={handleSubmit}>
                     <div className="form-element">
@@ -107,7 +108,15 @@ export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactCl
 
                         </div>}
 
-
+                    <div className="form-element">
+                        <Textarea
+                            label="Questions"
+                            name="question"
+                            onChange={e => {
+                                setRentalApplication({...rentalApplication, questions: e.target.value})
+                            }}
+                        />
+                    </div>
                     <Captcha setCaptchaResponse={token => {
                         setRentalApplication({...rentalApplication, captchaResponse: token})
                     }} error={

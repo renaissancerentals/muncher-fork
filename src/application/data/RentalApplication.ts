@@ -5,5 +5,6 @@ export interface RentalApplication {
     subject: string;
     community:string;
     phone?: string;
+    questions?:string;
     captchaResponse: string;
 }

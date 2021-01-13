@@ -12,7 +12,6 @@ export {ImageCardSkeleton} from "./gallery/ImageCardSkeleton";
 export {Gallery} from "./gallery/Gallery";
 export {InfoHeader} from "./header/InfoHeader";
 export {Captcha} from "./input/Captcha";
-export {RenaissanceEditor} from "./editor/RenaissanceEditor";
 export {MaintenanceSection} from "./maintenance/MaintenanceSection";
 export {MapSection} from "./map/MapSection";
 export {TeamCard} from "./team/card/TeamCard";
