@@ -310,642 +310,6 @@ exports[`Storyshots Heading/Emphasized Default 1`] = `
 </main>
 `;
 
-exports[`Storyshots Input/Editor Default 1`] = `
-<div
-  className="muncher"
->
-  <div
-    className="muncher-main"
-  >
-    <div
-      className="muncher-toolbar"
-    >
-      <div
-        className="muncher-toolbar--left"
-      >
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Undo"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <polyline
-              points="2 10 2 16 8 16"
-            />
-            <path
-              d="m22 16c-1.8136-6.5424-9.5593-9.4823-15.36-4.36l-4.64 4.36"
-            />
-          </svg>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Redo"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <polyline
-              points="22 10 22 16 16 16"
-            />
-            <path
-              d="m1.9935 16c1.8136-6.5424 9.5593-9.4823 15.36-4.36l4.64 4.36"
-            />
-          </svg>
-        </button>
-        <span
-          className="muncher-separator"
-        >
-          |
-        </span>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Ordered List"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="9"
-              x2="21"
-              y1="5"
-              y2="5"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="12"
-              y2="12"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="19"
-              y2="19"
-            />
-            <polyline
-              points="3 10 5 10 3 13 5 13"
-            />
-            <polyline
-              points="3 3 4 3 4 6"
-            />
-            <path
-              d="M3 17H4H5L4 19C4.55 19 5 19.45 5 20C5 20.55 4.55 21 4 21H3"
-            />
-          </svg>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Unordered List"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="9"
-              x2="21"
-              y1="5"
-              y2="5"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="12"
-              y2="12"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="19"
-              y2="19"
-            />
-            <circle
-              cx="4"
-              cy="12"
-              r="1"
-            />
-            <circle
-              cx="4"
-              cy="5"
-              r="1"
-            />
-            <circle
-              cx="4"
-              cy="19"
-              r="1"
-            />
-          </svg>
-        </button>
-        <span
-          className="muncher-separator"
-        >
-          |
-        </span>
-        <div
-          className="muncher-dropdown"
-        >
-          <button
-            className="muncher-button muncher-button--small muncher-button--active"
-            disabled={false}
-            onMouseDown={[Function]}
-            type="button"
-          >
-            <span>
-              Heading 1 
-              <span
-                className="muncher--small"
-              >
-                ▼
-              </span>
-            </span>
-            
-          </button>
-          
-        </div>
-        <span
-          className="muncher-separator"
-        >
-          |
-        </span>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Bold"
-          type="button"
-        >
-          <strong>
-            B
-          </strong>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Italic"
-          type="button"
-        >
-          <strong>
-            <em>
-              I
-            </em>
-          </strong>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Underline"
-          type="button"
-        >
-          <strong>
-            <u>
-              U
-            </u>
-          </strong>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Monospace"
-          type="button"
-        >
-          <strong>
-            {
-             
-            }
-          </strong>
-        </button>
-      </div>
-    </div>
-    <h2>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "width": 600,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </h2>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "height": 50,
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "height": 100,
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "height": 70,
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-  </div>
-</div>
-`;
-
-exports[`Storyshots Muncher/Skeleton Default 1`] = `
-<div
-  className="muncher"
->
-  <div
-    className="muncher-main"
-  >
-    <div
-      className="muncher-toolbar"
-    >
-      <div
-        className="muncher-toolbar--left"
-      >
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Undo"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <polyline
-              points="2 10 2 16 8 16"
-            />
-            <path
-              d="m22 16c-1.8136-6.5424-9.5593-9.4823-15.36-4.36l-4.64 4.36"
-            />
-          </svg>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Redo"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <polyline
-              points="22 10 22 16 16 16"
-            />
-            <path
-              d="m1.9935 16c1.8136-6.5424 9.5593-9.4823 15.36-4.36l4.64 4.36"
-            />
-          </svg>
-        </button>
-        <span
-          className="muncher-separator"
-        >
-          |
-        </span>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Ordered List"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="9"
-              x2="21"
-              y1="5"
-              y2="5"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="12"
-              y2="12"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="19"
-              y2="19"
-            />
-            <polyline
-              points="3 10 5 10 3 13 5 13"
-            />
-            <polyline
-              points="3 3 4 3 4 6"
-            />
-            <path
-              d="M3 17H4H5L4 19C4.55 19 5 19.45 5 20C5 20.55 4.55 21 4 21H3"
-            />
-          </svg>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Unordered List"
-          type="button"
-        >
-          <svg
-            className="muncher-icon muncher-icon--small"
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="9"
-              x2="21"
-              y1="5"
-              y2="5"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="12"
-              y2="12"
-            />
-            <line
-              x1="9"
-              x2="21"
-              y1="19"
-              y2="19"
-            />
-            <circle
-              cx="4"
-              cy="12"
-              r="1"
-            />
-            <circle
-              cx="4"
-              cy="5"
-              r="1"
-            />
-            <circle
-              cx="4"
-              cy="19"
-              r="1"
-            />
-          </svg>
-        </button>
-        <span
-          className="muncher-separator"
-        >
-          |
-        </span>
-        <div
-          className="muncher-dropdown"
-        >
-          <button
-            className="muncher-button muncher-button--small muncher-button--active"
-            disabled={false}
-            onMouseDown={[Function]}
-            type="button"
-          >
-            <span>
-              Heading 1 
-              <span
-                className="muncher--small"
-              >
-                ▼
-              </span>
-            </span>
-            
-          </button>
-          
-        </div>
-        <span
-          className="muncher-separator"
-        >
-          |
-        </span>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Bold"
-          type="button"
-        >
-          <strong>
-            B
-          </strong>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Italic"
-          type="button"
-        >
-          <strong>
-            <em>
-              I
-            </em>
-          </strong>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Underline"
-          type="button"
-        >
-          <strong>
-            <u>
-              U
-            </u>
-          </strong>
-        </button>
-        <button
-          className="muncher-button muncher-button--small"
-          disabled={false}
-          title="Monospace"
-          type="button"
-        >
-          <strong>
-            {
-             
-            }
-          </strong>
-        </button>
-      </div>
-    </div>
-    <h2>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "width": 600,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </h2>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "height": 50,
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "height": 100,
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "height": 70,
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-    <p>
-      <span>
-        <span
-          className="react-loading-skeleton css-1vmnjpn-skeletonStyles-Skeleton"
-          style={
-            Object {
-              "width": 800,
-            }
-          }
-        >
-          ‌
-        </span>
-      </span>
-    </p>
-  </div>
-</div>
-`;
-
 exports[`Storyshots Section/Announcement Default 1`] = `
 <div>
   <p>
@@ -981,11 +345,14 @@ exports[`Storyshots Section/Application Default 1`] = `
       </p>
       <p>
         If this is your first time contacting us, we recommend submitting an inquiry on our 
-        <a
-          href="/contact"
+        <button
+          className="muncher-button muncher-button--transparent muncher-button--medium"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
         >
           contact page
-        </a>
+        </button>
          first.
       </p>
     </div>
@@ -1153,7 +520,7 @@ exports[`Storyshots Section/Application Default 1`] = `
           <label
             htmlFor="neighborhood"
           >
-            Neighborhood
+            Community where you would like to apply
             <span
               className="required"
             >
@@ -1236,6 +603,33 @@ exports[`Storyshots Section/Application Default 1`] = `
         </div>
       </div>
       <div
+        className="form-element"
+      >
+        <div
+          className="muncher-input--div"
+        >
+          <label
+            htmlFor="question"
+          >
+            Questions
+            
+          </label>
+          <textarea
+            autoFocus={false}
+            className="muncher-textarea"
+            maxLength={1000}
+            name="question"
+            onChange={[Function]}
+            readOnly={false}
+            rows={6}
+          />
+          <p>
+            1000
+             characters left
+          </p>
+        </div>
+      </div>
+      <div
         className="captcha form-element"
       >
         <div />
@@ -1294,11 +688,14 @@ exports[`Storyshots Section/Application With Community 1`] = `
       </p>
       <p>
         If this is your first time contacting us, we recommend submitting an inquiry on our 
-        <a
-          href="/contact"
+        <button
+          className="muncher-button muncher-button--transparent muncher-button--medium"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
         >
           contact page
-        </a>
+        </button>
          first.
       </p>
     </div>
@@ -1458,6 +855,33 @@ exports[`Storyshots Section/Application With Community 1`] = `
         </div>
       </div>
       
+      <div
+        className="form-element"
+      >
+        <div
+          className="muncher-input--div"
+        >
+          <label
+            htmlFor="question"
+          >
+            Questions
+            
+          </label>
+          <textarea
+            autoFocus={false}
+            className="muncher-textarea"
+            maxLength={1000}
+            name="question"
+            onChange={[Function]}
+            readOnly={false}
+            rows={6}
+          />
+          <p>
+            1000
+             characters left
+          </p>
+        </div>
+      </div>
       <div
         className="captcha form-element"
       >
@@ -1712,250 +1136,24 @@ exports[`Storyshots Section/Contact Default 1`] = `
       onSubmit={[Function]}
     >
       <div
-        className="blah"
+        className="form-element"
       >
         <div
-          className="form-element"
+          className="muncher-input--div"
         >
-          <div
-            className="muncher-input--div"
+          <label
+            htmlFor="fullName"
           >
-            <label
-              htmlFor="fullName"
+            Name
+            <span
+              className="required"
             >
-              Name
-              <span
-                className="required"
-              >
-                *
-              </span>
-            </label>
-            <div
-              className="muncher-input-element"
-            >
-              <svg
-                className="muncher-icon muncher-icon--small"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
-                />
-                <circle
-                  cx="12"
-                  cy="7"
-                  r="4"
-                />
-              </svg>
-              <input
-                autoComplete="off"
-                autoFocus={false}
-                className="muncher-input muncher-input-icon"
-                name="fullName"
-                required={true}
-                type="text"
-              />
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div
-        className="blah"
-      >
-        <div
-          className="form-element"
-        >
+              *
+            </span>
+          </label>
           <div
-            className="muncher-input--div"
+            className="muncher-input-element"
           >
-            <label
-              htmlFor="email"
-            >
-              Email
-              <span
-                className="required"
-              >
-                *
-              </span>
-            </label>
-            <div
-              className="muncher-input-element"
-            >
-              <svg
-                className="muncher-icon muncher-icon--small"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                />
-                <polyline
-                  points="22,6 12,13 2,6"
-                />
-              </svg>
-              <input
-                autoComplete="off"
-                autoFocus={false}
-                className="muncher-input muncher-input-icon"
-                name="email"
-                required={true}
-                type="email"
-              />
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div
-        className="blah"
-      >
-        <div
-          className="form-element"
-        >
-          <div
-            className="muncher-input--div"
-          >
-            <label
-              htmlFor="phone"
-            >
-              Phone
-              <span
-                className="required"
-              >
-                *
-              </span>
-            </label>
-            <div
-              className="muncher-input-element"
-            >
-              <svg
-                className="muncher-icon muncher-icon--small"
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  height="20"
-                  rx="2"
-                  ry="2"
-                  width="14"
-                  x="5"
-                  y="2"
-                />
-                <line
-                  x1="12"
-                  x2="12.01"
-                  y1="18"
-                  y2="18"
-                />
-              </svg>
-              <input
-                autoComplete="off"
-                autoFocus={false}
-                className="muncher-input muncher-input-icon"
-                name="phone"
-                required={true}
-                type="number"
-              />
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div
-        className="blah"
-      >
-        <div
-          className="checkboxes form-element"
-        >
-          <div
-            className="muncher-input--div"
-          >
-            <div
-              className="muncher-checkbox"
-            >
-              <input
-                checked={false}
-                name="phonePreferred"
-                onChange={[Function]}
-                required={false}
-                type="checkbox"
-              />
-              <label
-                htmlFor="phonePreferred"
-              >
-                Phone OK
-                
-              </label>
-            </div>
-          </div>
-          <div
-            className="muncher-input--div"
-          >
-            <div
-              className="muncher-checkbox"
-            >
-              <input
-                checked={false}
-                name="textPreferred"
-                onChange={[Function]}
-                required={false}
-                type="checkbox"
-              />
-              <label
-                htmlFor="textPreferred"
-              >
-                Text OK
-                
-              </label>
-            </div>
-          </div>
-          <div
-            className="muncher-input--div"
-          >
-            <div
-              className="muncher-checkbox"
-            >
-              <input
-                checked={true}
-                name="emailPreferred"
-                onChange={[Function]}
-                required={false}
-                type="checkbox"
-              />
-              <label
-                htmlFor="emailPreferred"
-              >
-                Email OK
-                
-              </label>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        className="blah"
-      >
-        <p
-          className="additional-info form-element"
-          onClick={[Function]}
-        >
-          <b>
             <svg
               className="muncher-icon muncher-icon--small"
               fill="none"
@@ -1966,107 +1164,297 @@ exports[`Storyshots Section/Contact Default 1`] = `
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
+              <path
+                d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"
+              />
               <circle
                 cx="12"
-                cy="12"
-                r="10"
+                cy="7"
+                r="4"
+              />
+            </svg>
+            <input
+              autoComplete="off"
+              autoFocus={false}
+              className="muncher-input muncher-input-icon"
+              name="fullName"
+              required={true}
+              type="text"
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        className="form-element"
+      >
+        <div
+          className="muncher-input--div"
+        >
+          <label
+            htmlFor="email"
+          >
+            Email
+            <span
+              className="required"
+            >
+              *
+            </span>
+          </label>
+          <div
+            className="muncher-input-element"
+          >
+            <svg
+              className="muncher-icon muncher-icon--small"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+              />
+              <polyline
+                points="22,6 12,13 2,6"
+              />
+            </svg>
+            <input
+              autoComplete="off"
+              autoFocus={false}
+              className="muncher-input muncher-input-icon"
+              name="email"
+              required={true}
+              type="email"
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        className="form-element"
+      >
+        <div
+          className="muncher-input--div"
+        >
+          <label
+            htmlFor="phone"
+          >
+            Phone
+            <span
+              className="required"
+            >
+              *
+            </span>
+          </label>
+          <div
+            className="muncher-input-element"
+          >
+            <svg
+              className="muncher-icon muncher-icon--small"
+              fill="none"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                height="20"
+                rx="2"
+                ry="2"
+                width="14"
+                x="5"
+                y="2"
               />
               <line
                 x1="12"
-                x2="12"
-                y1="8"
-                y2="16"
-              />
-              <line
-                x1="8"
-                x2="16"
-                y1="12"
-                y2="12"
+                x2="12.01"
+                y1="18"
+                y2="18"
               />
             </svg>
-             Tap here to provide additional information about what you are looking for in your home.
-          </b>
-           (This info is very helpful to us, but not required.)
-        </p>
+            <input
+              autoComplete="off"
+              autoFocus={false}
+              className="muncher-input muncher-input-icon"
+              name="phone"
+              required={true}
+              type="number"
+            />
+          </div>
+          
+        </div>
       </div>
-      
       <div
-        className="blah"
+        className="checkboxes form-element"
       >
         <div
-          className="form-element"
+          className="muncher-input--div"
         >
           <div
-            className="muncher-input--div"
+            className="muncher-checkbox"
           >
-            <label
-              htmlFor="question"
-            >
-              Question
-              <span
-                className="required"
-              >
-                *
-              </span>
-            </label>
-            <textarea
-              autoFocus={false}
-              className="muncher-textarea"
-              maxLength={1000}
-              name="question"
+            <input
+              checked={false}
+              name="phonePreferred"
               onChange={[Function]}
-              readOnly={false}
-              required={true}
-              rows={6}
+              required={false}
+              type="checkbox"
             />
-            <p>
-              1000
-               characters left
-            </p>
+            <label
+              htmlFor="phonePreferred"
+            >
+              Phone OK
+              
+            </label>
+          </div>
+        </div>
+        <div
+          className="muncher-input--div"
+        >
+          <div
+            className="muncher-checkbox"
+          >
+            <input
+              checked={false}
+              name="textPreferred"
+              onChange={[Function]}
+              required={false}
+              type="checkbox"
+            />
+            <label
+              htmlFor="textPreferred"
+            >
+              Text OK
+              
+            </label>
+          </div>
+        </div>
+        <div
+          className="muncher-input--div"
+        >
+          <div
+            className="muncher-checkbox"
+          >
+            <input
+              checked={true}
+              name="emailPreferred"
+              onChange={[Function]}
+              required={false}
+              type="checkbox"
+            />
+            <label
+              htmlFor="emailPreferred"
+            >
+              Email OK
+              
+            </label>
           </div>
         </div>
       </div>
+      <p
+        className="additional-info form-element"
+        onClick={[Function]}
+      >
+        <b>
+          <svg
+            className="muncher-icon muncher-icon--small"
+            fill="none"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="12"
+              cy="12"
+              r="10"
+            />
+            <line
+              x1="12"
+              x2="12"
+              y1="8"
+              y2="16"
+            />
+            <line
+              x1="8"
+              x2="16"
+              y1="12"
+              y2="12"
+            />
+          </svg>
+           Tap here to provide additional information about what you are looking for in your home.
+        </b>
+         (This info is very helpful to us, but not required.)
+      </p>
+      
       <div
-        className="blah"
+        className="form-element"
       >
         <div
-          className="captcha form-element"
+          className="muncher-input--div"
         >
-          <div />
-          <p
-            className="text-danger"
-            hidden={true}
+          <label
+            htmlFor="question"
           >
-            Please check the captcha
+            Question
+            <span
+              className="required"
+            >
+              *
+            </span>
+          </label>
+          <textarea
+            autoFocus={false}
+            className="muncher-textarea"
+            maxLength={1000}
+            name="question"
+            onChange={[Function]}
+            readOnly={false}
+            required={true}
+            rows={6}
+          />
+          <p>
+            1000
+             characters left
           </p>
-          
         </div>
       </div>
       <div
-        className="blah"
+        className="captcha form-element"
       >
-        <div
-          className="form-element"
+        <div />
+        <p
+          className="text-danger"
+          hidden={true}
         >
-          
-          
-        </div>
+          Please check the captcha
+        </p>
+        
       </div>
       <div
-        className="blah"
+        className="form-element"
       >
-        <div
-          className="form-element form-submit"
+        
+        
+      </div>
+      <div
+        className="form-element form-submit"
+      >
+        <button
+          className="muncher-button muncher-button--primary muncher-button--large"
+          disabled={false}
+          type="submit"
         >
-          <button
-            className="muncher-button muncher-button--primary muncher-button--large"
-            disabled={false}
-            type="submit"
-          >
-            Submit
-          </button>
-          
-        </div>
+          Submit
+        </button>
+        
       </div>
     </form>
   </div>

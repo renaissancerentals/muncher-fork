@@ -96,7 +96,7 @@ export const ApplicationSection: React.FC<ApplicationSectionProps> = ({contactCl
                     {community ? "" :
                         <div className="form-element">
                             <Select name="neighborhood" options={Object.keys(CommunitiesEmail)}
-                                    label="Neighborhood"
+                                    label="Community where you would like to apply"
                                     onChange={e => {
                                         setRentalApplication({...rentalApplication, community: e.target.value})
                                     }}
