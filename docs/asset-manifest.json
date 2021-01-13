@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "./static/css/main.ca7c86f7.chunk.css",
-    "main.js": "./main.dda00f5c4894302ccb96.bundle.js",
+    "main.js": "./main.650daa0f9b502fed01cf.bundle.js",
     "main.css.map": "./static/css/main.ca7c86f7.chunk.css.map",
-    "main.js.map": "./main.dda00f5c4894302ccb96.bundle.js.map",
-    "runtime~main.js": "./runtime~main.dda00f5c4894302ccb96.bundle.js",
-    "runtime~main.js.map": "./runtime~main.dda00f5c4894302ccb96.bundle.js.map",
+    "main.js.map": "./main.650daa0f9b502fed01cf.bundle.js.map",
+    "runtime~main.js": "./runtime~main.650daa0f9b502fed01cf.bundle.js",
+    "runtime~main.js.map": "./runtime~main.650daa0f9b502fed01cf.bundle.js.map",
     "vendors~main.css": "./static/css/vendors~main.acd2a2ba.chunk.css",
-    "vendors~main.js": "./vendors~main.dda00f5c4894302ccb96.bundle.js",
+    "vendors~main.js": "./vendors~main.650daa0f9b502fed01cf.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.acd2a2ba.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.dda00f5c4894302ccb96.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.650daa0f9b502fed01cf.bundle.js.map",
     "iframe.html": "./iframe.html",
     "static/media/360-icon.e31c23fb.png": "./static/media/360-icon.e31c23fb.png",
     "static/media/accessibility-logo.f9924fab.png": "./static/media/accessibility-logo.f9924fab.png",
     "static/media/chamber-logo.4f13f222.png": "./static/media/chamber-logo.4f13f222.png",
     "static/media/renren-logo.d12db254.png": "./static/media/renren-logo.d12db254.png",
     "static/media/renren-mobile-logo.4ace3872.png": "./static/media/renren-mobile-logo.4ace3872.png",
-    "vendors~main.dda00f5c4894302ccb96.bundle.js.LICENSE.txt": "./vendors~main.dda00f5c4894302ccb96.bundle.js.LICENSE.txt"
+    "vendors~main.650daa0f9b502fed01cf.bundle.js.LICENSE.txt": "./vendors~main.650daa0f9b502fed01cf.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.dda00f5c4894302ccb96.bundle.js",
+    "runtime~main.650daa0f9b502fed01cf.bundle.js",
     "static/css/vendors~main.acd2a2ba.chunk.css",
-    "vendors~main.dda00f5c4894302ccb96.bundle.js",
+    "vendors~main.650daa0f9b502fed01cf.bundle.js",
     "static/css/main.ca7c86f7.chunk.css",
-    "main.dda00f5c4894302ccb96.bundle.js"
+    "main.650daa0f9b502fed01cf.bundle.js"
   ]
 }
