@@ -44,7 +44,7 @@ export const Footer: React.FC<FooterProps> = ({nav, accessibilityLink}) => {
                         </nav>
                     </div>
                     <div className="center">
-                        <a href="https://renaissancerentals.com" className="href-logo">
+                        <a href="https://www.renaissancerentals.com" className="href-logo">
                             <img src={renrenLogo} height="150" alt="renaissance rentals, we build community"/>
                         </a>
                     </div>

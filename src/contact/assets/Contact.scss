@@ -15,10 +15,19 @@ $contact-section-background-color: $primary-background-color !default;
   .additional-info:hover {
     opacity: .6;
   }
+
   .muncher-slider {
     margin-top: 0;
     height: 2rem;
   }
 
+  .multi-select {
+    label{
+      font-size: .9rem;
+    }
+    select {
+      height: 100%;
+    }
+  }
 }
 

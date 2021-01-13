@@ -1,10 +1,11 @@
 import React, {Fragment, useState} from 'react';
 import './assets/Contact.scss';
-import {Button, Checkbox, Icon, Input, RangeSlider, Spinner, Textarea} from "@contentmunch/muncher-ui";
-import {sendContactMail, sendToConversionTracking} from "./service/ContactService";
+import {Button, Checkbox, Icon, Input, RangeSlider, Select, Spinner, Textarea} from "@contentmunch/muncher-ui";
 import {defaultMaxRent, defaultMinRent} from "../unit/data/Unit";
 import {ContactMessage} from "./data/ContactMessage";
 import {Captcha} from "../input/Captcha";
+import {CommunitiesEmail, Community} from "../community/data/CommunitiesEmail";
+import {sendContactMail, sendToConversionTracking} from "./service/ContactService";
 
 export const ContactSection: React.FC<ContactSectionProps> = (
     {
@@ -13,6 +14,7 @@ export const ContactSection: React.FC<ContactSectionProps> = (
         cc,
         as,
         conversionTrackingIds,
+        community,
         variant
     }) => {
 
@@ -33,7 +35,6 @@ export const ContactSection: React.FC<ContactSectionProps> = (
 
         if (form.checkValidity() && captchaResponse !== "") {
             setSubmitted(true);
-
             const mailObject: ContactMessage = {
                 to, cc, as, subject, captchaResponse,
                 name: form.fullName.value,
@@ -43,6 +44,7 @@ export const ContactSection: React.FC<ContactSectionProps> = (
                 phonePreferred: form.phonePreferred.checked,
                 textPreferred: form.textPreferred.checked,
                 question: form.question.value,
+                communities: Array.from(form.neighborhood.selectedOptions, (item: HTMLOptionElement) => item.value).join(", ")
             };
 
             const mailWithAddition: ContactMessage = {
@@ -101,8 +103,18 @@ export const ContactSection: React.FC<ContactSectionProps> = (
                         <Checkbox label="Phone OK" name="phonePreferred"/>
                         <Checkbox label="Text OK" name="textPreferred"/>
                         <Checkbox label="Email OK" name="emailPreferred" checked={true}/>
-
                     </div>
+                    {community ? "" :
+                        <div className="form-element multi-select">
+                            <Select name="neighborhood" options={Object.keys(CommunitiesEmail)}
+                                    label="Which community are you interested in (select all that apply)"
+                                    multiple={true}
+                                    onChange={e => {
+
+                                        //setRentalApplication({...rentalApplication, community: e.target.value})
+                                    }}/>
+
+                        </div>}
                     {"long" === variant ?
                         <p className="additional-info form-element" onClick={handleAdditionalInfoToggle}>
                             <b>{additionalInfoClicked ? <Icon name="minus"/> : <Icon name="plus"/>} Tap here to
@@ -140,7 +152,7 @@ export const ContactSection: React.FC<ContactSectionProps> = (
                                        icon="type"/>
                             </div>
                             <div className="form-element optional">
-                                <Input label="Is there a particular floor plan style or community that you are
+                                <Input label="Is there a particular floor plan style that you are
                                     most interested in? (Please list all that apply)" name="floorPlan"
                                        icon="type"/>
                             </div>
@@ -152,6 +164,7 @@ export const ContactSection: React.FC<ContactSectionProps> = (
 
                         </Fragment>
                         : ""}
+
 
                     <div className="form-element">
                         <Textarea
@@ -190,5 +203,6 @@ export interface ContactSectionProps {
     cc?: string;
     as?: string;
     variant?: "long"
+    community?: Community
     conversionTrackingIds?: string[]
 }

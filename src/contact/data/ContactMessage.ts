@@ -11,6 +11,7 @@ export interface ContactMessage {
     phonePreferred: boolean;
     textPreferred: boolean;
     question: string;
+    communities: string;
     additionalInfo?: AdditionalInfo;
 }
 
