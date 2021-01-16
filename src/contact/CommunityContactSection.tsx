@@ -29,12 +29,13 @@ export const CommunityContactSection: React.FC<CommunityContactSectionProps> = (
                                 conversionTrackingIds={communityContact?.conversionTrackingIds}
                                 to={communityContact?.to}
                                 subject={communityContact?.to}
+                                communityId={communityId}
                 />
         );
     }
 ;
 
 export interface CommunityContactSectionProps {
-    communityId?: CommunityId;
+    communityId: CommunityId;
     variant?: "long";
 }

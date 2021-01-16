@@ -4,8 +4,9 @@ import {Button, Checkbox, Icon, Input, RangeSlider, Select, Spinner, Textarea} f
 import {defaultMaxRent, defaultMinRent} from "../unit/data/Unit";
 import {ContactMessage} from "./data/ContactMessage";
 import {Captcha} from "../input/Captcha";
-import {CommunitiesEmail, Community} from "../community/data/CommunitiesEmail";
+import {CommunitiesEmail} from "../community/data/CommunitiesEmail";
 import {sendContactMail, sendToConversionTracking} from "./service/ContactService";
+import {CommunityId} from "../community/data/CommunityId";
 
 export const ContactSection: React.FC<ContactSectionProps> = (
     {
@@ -14,7 +15,7 @@ export const ContactSection: React.FC<ContactSectionProps> = (
         cc,
         as,
         conversionTrackingIds,
-        community,
+        communityId,
         variant
     }) => {
 
@@ -104,15 +105,11 @@ export const ContactSection: React.FC<ContactSectionProps> = (
                         <Checkbox label="Text OK" name="textPreferred"/>
                         <Checkbox label="Email OK" name="emailPreferred" checked={true}/>
                     </div>
-                    {community ? "" :
+                    {communityId ? "" :
                         <div className="form-element multi-select">
                             <Select name="neighborhood" options={Object.keys(CommunitiesEmail)}
                                     label="Which community are you interested in (select all that apply)"
-                                    multiple={true}
-                                    onChange={e => {
-
-                                        //setRentalApplication({...rentalApplication, community: e.target.value})
-                                    }}/>
+                                    multiple={true}/>
 
                         </div>}
                     {"long" === variant ?
@@ -202,7 +199,7 @@ export interface ContactSectionProps {
     to?: string;
     cc?: string;
     as?: string;
-    variant?: "long"
-    community?: Community
+    variant?: "long";
+    communityId?: CommunityId
     conversionTrackingIds?: string[]
 }

@@ -1,11 +1,15 @@
 export type CommunityId =
-    "cape-dutch-villas"
-    | "covenanter-hill"
-    | "high-grove"
-    | "meadow-creek"
-    | "porto-flats"
-    | "scholars-quad"
-    | "scholars-rooftop"
-    | "summer-house"
-    | "courtyard-villas"
-    | "test";
+    "cape-dutch-villas" |
+    "courtyard-villas" |
+    "covenanter-hill" |
+    "high-grove" |
+    "huntington-gardens" |
+    "meadow-creek" |
+    "porto-flats" |
+    "scholars-quad" |
+    "scholars-rock" |
+    "scholars-rooftop" |
+    "summer-house" |
+    "verona-park" |
+    "renaissance-rentals"|
+    "test";

@@ -81,7 +81,7 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "@contentmunch/muncher-ui": "^0.7.21",
+    "@contentmunch/muncher-ui": "^0.7.22",
     "axios": "^0.20.0",
     "react-google-recaptcha": "^2.1.0",
     "react-loading-skeleton": "^2.1.1",

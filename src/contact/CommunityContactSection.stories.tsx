@@ -19,5 +19,6 @@ Default.args = {
 }
 export const Long = Template.bind({});
 Long.args = {
-    variant:"long"
+    ...Default.args,
+    variant: "long"
 }
