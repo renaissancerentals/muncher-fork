@@ -45,7 +45,7 @@ export const ContactSection: React.FC<ContactSectionProps> = (
                 phonePreferred: form.phonePreferred.checked,
                 textPreferred: form.textPreferred.checked,
                 question: form.question.value,
-                communities: Array.from(form.neighborhood.selectedOptions, (item: HTMLOptionElement) => item.value).join(", ")
+                communities: communityId ? "" : Array.from(form.neighborhood.selectedOptions, (item: HTMLOptionElement) => item.value).join(", ")
             };
 
             const mailWithAddition: ContactMessage = {
