@@ -23,7 +23,7 @@ export {UnitsSection} from "./unit/section/UnitsSection";
 export {DropDownFilter} from "./unit/filter/UnitDropDown";
 export {FeaturedUnitSlider} from "./unit/slider/FeaturedUnitSlider";
 export {Video} from "./video/Video";
-
+export {Button} from "@contentmunch/muncher-ui";
 export type {Card} from "./card/data/Card";
 
 export type {CommunityId} from "./community/data/CommunityId";
