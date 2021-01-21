@@ -54,6 +54,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
+    "@contentmunch/muncher-ui": "^0.7.22",
     "@storybook/addon-a11y": "^6.1.0-alpha.34",
     "@storybook/addon-actions": "^6.1.0-alpha.34",
     "@storybook/addon-essentials": "^6.1.0-alpha.34",
@@ -81,11 +82,13 @@
     "rimraf": "^3.0.2"
   },
   "dependencies": {
-    "@contentmunch/muncher-ui": "^0.7.22",
     "axios": "^0.20.0",
     "react-google-recaptcha": "^2.1.0",
     "react-loading-skeleton": "^2.1.1",
     "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "@contentmunch/muncher-ui": "^0.7.22"
   },
   "bugs": {
     "url": "https://github.com/renaissancerentals/renaissance-component/issues"
