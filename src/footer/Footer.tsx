@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({nav, accessibilityLink}) => {
                     </div>
                 </div>
                 <a href={accessibilityLink ? accessibilityLink : "https://www.renaissancerentals.com/accessibility"}>
-                    <img src={accessibilityLogo} alt="accessibility" height="25"/>
+                    <img src={accessibilityLogo} alt="accessibility" height="23"/>
                 </a>
 
                 <nav>
@@ -61,7 +61,7 @@ export const Footer: React.FC<FooterProps> = ({nav, accessibilityLink}) => {
                             <img src={rainbowLogo} alt="we welcome all " height="30"/>
                         </div>
                         <a href={accessibilityLink ? accessibilityLink : "https://www.renaissancerentals.com/accessibility"}>
-                            <img src={accessibilityLogo} alt="accessiblity " height="25"/>
+                            <img src={accessibilityLogo} alt="accessibility " height="23"/>
                         </a>
                     </div>
                 </div>
