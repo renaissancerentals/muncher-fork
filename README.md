@@ -1,4 +1,4 @@
-![Test release and publish](https://github.com/renaissance-rentals/renaissance-component/workflows/Test%20release%20and%20publish/badge.svg) 
+![Test release and publish](https://github.com/renaissancerentals/renaissance-component/workflows/Test%20release%20and%20publish/badge.svg) 
 # Renaissance-component  
 Front-end [component library](https://renaissancerentals.github.io/renaissance-component/) for renaissancerentals, forked from [muncher-ui](https://github.com/contentmunch/muncher-ui)
 

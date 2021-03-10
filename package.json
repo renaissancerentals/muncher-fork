@@ -54,7 +54,7 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
-    "@contentmunch/muncher-ui": "^0.7.28",
+    "@contentmunch/muncher-ui": "^0.8.3",
     "@storybook/addon-a11y": "^6.1.0-alpha.34",
     "@storybook/addon-actions": "^6.1.0-alpha.34",
     "@storybook/addon-essentials": "^6.1.0-alpha.34",
