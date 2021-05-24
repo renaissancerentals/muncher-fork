@@ -5,6 +5,8 @@ import {Month} from "../data/Calendar";
 import {CurrentFilters, SortBy, SortFields, UnitFilters} from "../data/UnitFilters";
 
 export const convertToHttps = (url: string): string => {
+    if(url===null)
+        return "";
     return url.replace(/^http:\/\//i, 'https://');
 };
 export const getAllAddresses = (): Promise<string[]> => {
