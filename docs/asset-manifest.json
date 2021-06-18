@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "./static/css/main.9f8ab55c.chunk.css",
-    "main.js": "./main.2a40e81bb2f8655d1a81.bundle.js",
+    "main.js": "./main.d49290b678ef8a809474.bundle.js",
     "main.css.map": "./static/css/main.9f8ab55c.chunk.css.map",
-    "main.js.map": "./main.2a40e81bb2f8655d1a81.bundle.js.map",
-    "runtime~main.js": "./runtime~main.2a40e81bb2f8655d1a81.bundle.js",
-    "runtime~main.js.map": "./runtime~main.2a40e81bb2f8655d1a81.bundle.js.map",
+    "main.js.map": "./main.d49290b678ef8a809474.bundle.js.map",
+    "runtime~main.js": "./runtime~main.d49290b678ef8a809474.bundle.js",
+    "runtime~main.js.map": "./runtime~main.d49290b678ef8a809474.bundle.js.map",
     "vendors~main.css": "./static/css/vendors~main.484ac748.chunk.css",
-    "vendors~main.js": "./vendors~main.2a40e81bb2f8655d1a81.bundle.js",
+    "vendors~main.js": "./vendors~main.d49290b678ef8a809474.bundle.js",
     "vendors~main.css.map": "./static/css/vendors~main.484ac748.chunk.css.map",
-    "vendors~main.js.map": "./vendors~main.2a40e81bb2f8655d1a81.bundle.js.map",
+    "vendors~main.js.map": "./vendors~main.d49290b678ef8a809474.bundle.js.map",
     "iframe.html": "./iframe.html",
     "static/media/360-icon.e31c23fb.png": "./static/media/360-icon.e31c23fb.png",
     "static/media/accessibility-logo.bd4bed57.png": "./static/media/accessibility-logo.bd4bed57.png",
     "static/media/chamber-logo.4f13f222.png": "./static/media/chamber-logo.4f13f222.png",
     "static/media/renren-logo.d12db254.png": "./static/media/renren-logo.d12db254.png",
     "static/media/renren-mobile-logo.4ace3872.png": "./static/media/renren-mobile-logo.4ace3872.png",
-    "vendors~main.2a40e81bb2f8655d1a81.bundle.js.LICENSE.txt": "./vendors~main.2a40e81bb2f8655d1a81.bundle.js.LICENSE.txt"
+    "vendors~main.d49290b678ef8a809474.bundle.js.LICENSE.txt": "./vendors~main.d49290b678ef8a809474.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.2a40e81bb2f8655d1a81.bundle.js",
+    "runtime~main.d49290b678ef8a809474.bundle.js",
     "static/css/vendors~main.484ac748.chunk.css",
-    "vendors~main.2a40e81bb2f8655d1a81.bundle.js",
+    "vendors~main.d49290b678ef8a809474.bundle.js",
     "static/css/main.9f8ab55c.chunk.css",
-    "main.2a40e81bb2f8655d1a81.bundle.js"
+    "main.d49290b678ef8a809474.bundle.js"
   ]
 }
